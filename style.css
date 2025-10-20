@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+   background: linear-gradient(to bottom, red, black);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.football img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: absolute;
+    animation: bounce 7s ease-in-out infinite;
+
+}
+@keyframes bounce{
+    0%{
+        left: 0;
+        bottom: 0;
+    }
+
+    10%{
+        left: 10%;
+        bottom: 500px;
+        transform: scaleY(1.2);
+    }
+    25%{
+        left: 25%;
+        bottom: 0;
+        transform: scaleX(1.2);
+    }
+
+    40%{
+         left: 40%;
+        bottom: 400px;
+        transform: scaleY(1.2);
+    }
+
+    50%{
+         left: 50%;
+        bottom: 0;
+        transform: scaleX(1.2);
+    }
+
+    65%{
+         left: 65%;
+        bottom: 500px;
+        transform: scaleY(1.2);
+    }
+
+    75%{
+         left: 75%;
+        bottom: 0;
+        transform: scaleX(1.2);
+    }
+
+    85%{
+         left: 85%;
+        bottom: 500px;
+        transform: scaleY(1.2);
+    }
+  
+    100%{
+         left: 100%;
+        bottom: 0;
+        transform: scaleX(1.2);
+    }
+}
+
+
+/* 10%{
+        left: 10%;
+        bottom:550px;
+     }
+    20%{
+        left: 20%;
+        bottom: 0px;
+    }
+    30%{
+        left: 30%;
+        bottom: 450px ;
+    }
+    40%{
+        left: 40%;
+        bottom: 0px;
+    }
+    50%{
+        left: 50%;
+        bottom: 380px;
+    }
+    60%{
+        left: 60%;
+        bottom: 0px;
+    }
+    70%{
+        left: 70%;
+        bottom: 280px;
+    }
+   80%{
+    left: 80%;
+    bottom: 0px;
+   }
+   90%{
+    left: 90%;
+    bottom: 200px;
+    transform: scale(1);
+   }
+   100%{
+    left: 100%;
+    bottom: 0px;
+   }
+    100%{
+    left: 100%;
+    bottom: 200px;
+   }
+    100%{
+    left: 100%;
+    bottom: 0px;
+   }
+    100%{
+    left: 100%;
+    bottom: 100px;
+   }
+    100%{
+    left: 100%;
+    bottom: 0px;
+   } */
